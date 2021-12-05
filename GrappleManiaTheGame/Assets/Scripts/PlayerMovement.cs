@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     float originalHeight;
     public float reducedHeight;
 
-    public float slideSpeed = 10f;
+    [SerializeField] public float slideSpeed = 10f;
 
     bool isSliding;
 
